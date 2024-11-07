@@ -14,14 +14,13 @@ class Word():
 
     def __init__(self, word: str) -> None:
         self.letters = list(word)
-        #TODO: fix the scoring
         self.score = -1
         self.word = word
     
     def __str__(self) -> str:
         return self.word
     
-    def score_word(self, mono_freq: dict[str, float], bi_freq: dict[str, float]) -> None:
+    def score_word(self, mono_freq: dict[str, int], bi_freq: dict[str, int]) -> None:
         """Return a score dictating the frequency of letters and bigrams in Word.
         When WordleGame updates its guess bank, each word will be assigned a score based off frequencies of letters
         and bigrams in the remaining answers, recorded in mono_freq and bi_freq.

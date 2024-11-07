@@ -1,0 +1,1 @@
+__all__ = ['valid_answers.txt', 'valid_guesses.txt']

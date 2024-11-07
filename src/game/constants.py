@@ -6,3 +6,6 @@ EMPTY_GAMEBOARD = {'a': 0, 'b': 0, 'c': 0, 'd': 0, 'e': 0, 'f': 0, 'g': 0,
                    'v': 0, 'w': 0, 'x': 0, 'y': 0, 'z': 0}
 
 ALPHABET = 'abcdefghijklmnopqrstuvwxyz'
+
+guess_bank = "guess_answer_banks/valid_guesses.txt"
+answer_bank = "guess_answer_banks/valid_answers.txt"
